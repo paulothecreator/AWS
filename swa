@@ -1,0 +1,15 @@
+select
+	sum(car manufacturers)
+from "car manufacturers"."car manufacturers";
+
+select brands, car manufacturers
+from "car manufacturers"."car manufacturers"
+where brands='Mercedes Benz';
+
+select * from "car manufacturers"."car manufacturers" limit 20
+
+select car,
+	sum(population)
+from "car manufacturers"."car manufacturers"
+where vehicles='Brazil'
+group by Brazil;
